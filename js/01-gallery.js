@@ -36,7 +36,7 @@ function onClickPicture(e) {
   if (!e.target.classList.contains('gallery__image')) {
     return;
   }
-  const instance = basicLightbox.create(`<img src="${e.target.dataset.sourсe}">`);
+  const instance = basicLightbox.create(`<img src="${e.target.dataset.source}">`);
 
   instance.show();
 }
